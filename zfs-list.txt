@@ -1,9 +1,9 @@
 NAME                               USED  AVAIL  REFER  MOUNTPOINT
 zpool                             83.0G  3.43T    24K  none
-zpool/boot                        90.9M  3.43T  90.9M  none
+zpool/boot                        90.9M  3.43T  90.9M  none       # Only used for backups, Real boot is EFI
 zpool/gentoo                      6.37G  3.43T    98K  none
 zpool/gentoo/root                 3.33G  3.43T  2.29G  /sysroot
-zpool/gentoo/root-6.1.41          29.9M  3.43T  2.10G  none
+zpool/gentoo/root-6.1.41          29.9M  3.43T  2.10G  none       # Not used, could be a nice way to do atomic upgrades
 zpool/gentoo/usr                   244M  3.43T    98K  none
 zpool/gentoo/usr/src               243M  3.43T   243M  /usr/src
 zpool/gentoo/var                  2.77G  3.43T    98K  none
