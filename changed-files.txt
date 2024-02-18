@@ -1,6 +1,9 @@
 # /etc/dracut.conf.d/zpool-encryption.conf
 install_items+=" /boot/zpool_encryption.key "
 
+Created with
+% dd if=/dev/urandom bs=32 count=1 of=/boot/zpool_encryption.key
+
 # /etc/fstab
 LABEL=BOOT /boot auto noauto,noatime 1 2
 
@@ -58,6 +61,12 @@ sync-type = git
 
 # /etc/resolv.conf
 % cp -L /etc/resolv.conf
+
+# ZFS
+
+% zpool create -m none zpool mirror nvme0n1 nvme1n1
+% zfs create -o mountpoint=none -o keylocation=file:///boot/zpool_encryption.key zpool/gentoo
+% zfs create -o mountpoint=/sysroot zpool/gentoo/root
 
 # /usr/src
 % zfs create -o mountpoint=/usr/src zpool/gentoo/usr/src
