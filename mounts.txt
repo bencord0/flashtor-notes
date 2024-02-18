@@ -1,0 +1,7 @@
+zpool/gentoo/root on / type zfs (rw,relatime,xattr,noacl,casesensitive)
+zpool/gentoo/var/cache/binpkgs on /var/cache/binpkgs type zfs (rw,relatime,xattr,noacl,casesensitive)
+zpool/gentoo/var/tmp/portage on /var/tmp/portage type zfs (rw,relatime,xattr,noacl,casesensitive)
+zpool/gentoo/var/db/repos on /var/db/repos type zfs (rw,relatime,xattr,noacl,casesensitive)
+zpool/gentoo/usr/src on /usr/src type zfs (rw,relatime,xattr,noacl,casesensitive)
+zpool/gentoo/var/cache/distfiles on /var/cache/distfiles type zfs (rw,relatime,xattr,noacl,casesensitive)
+/dev/mmcblk0p1 on /boot type vfat (rw,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,errors=remount-ro)
