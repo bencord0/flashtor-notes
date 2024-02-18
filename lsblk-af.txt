@@ -1,0 +1,11 @@
+NAME         FSTYPE     FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+mmcblk0                                                                                 
+└─mmcblk0p1  vfat       FAT32 BOOT  CCFB-BF21                               7.2G     1% /boot
+mmcblk0boot0                                                                            
+mmcblk0boot1                                                                            
+nvme1n1                                                                                 
+├─nvme1n1p1  zfs_member 5000  zpool 13641190368301957381                                
+└─nvme1n1p9                                                                             
+nvme0n1                                                                                 
+├─nvme0n1p1  zfs_member 5000  zpool 13641190368301957381                                
+└─nvme0n1p9                                                                             

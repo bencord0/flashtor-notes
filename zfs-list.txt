@@ -1,0 +1,17 @@
+NAME                               USED  AVAIL  REFER  MOUNTPOINT
+zpool                             83.0G  3.43T    24K  none
+zpool/boot                        90.9M  3.43T  90.9M  none
+zpool/gentoo                      6.37G  3.43T    98K  none
+zpool/gentoo/root                 3.33G  3.43T  2.29G  /sysroot
+zpool/gentoo/root-6.1.41          29.9M  3.43T  2.10G  none
+zpool/gentoo/usr                   244M  3.43T    98K  none
+zpool/gentoo/usr/src               243M  3.43T   243M  /usr/src
+zpool/gentoo/var                  2.77G  3.43T    98K  none
+zpool/gentoo/var/cache            1.83G  3.43T    98K  none
+zpool/gentoo/var/cache/binpkgs     137M  3.43T   137M  /var/cache/binpkgs
+zpool/gentoo/var/cache/distfiles  1.69G  3.43T  1.69G  /var/cache/distfiles
+zpool/gentoo/var/db                421M  3.43T    98K  none
+zpool/gentoo/var/db/repos          420M  3.43T   420M  /var/db/repos
+zpool/gentoo/var/lib                98K  3.43T    98K  none
+zpool/gentoo/var/tmp               546M  3.43T    98K  none
+zpool/gentoo/var/tmp/portage       546M  3.43T   546M  /var/tmp/portage

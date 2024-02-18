@@ -1,0 +1,47 @@
+Disk /dev/mmcblk0: 7.28 GiB, 7818182656 bytes, 15269888 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: D1DB27AD-4B80-9140-9F21-3885414E71D0
+
+Device         Start      End  Sectors  Size Type
+/dev/mmcblk0p1  2048 15267839 15265792  7.3G EFI System
+
+
+Disk /dev/mmcblk0boot0: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mmcblk0boot1: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/nvme1n1: 3.64 TiB, 4000787030016 bytes, 7814037168 sectors
+Disk model: CT4000P3SSD8                            
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: C4F301D1-CC55-A64B-BB71-3BEC3EF2E5FB
+
+Device              Start        End    Sectors  Size Type
+/dev/nvme1n1p1       2048 7814019071 7814017024  3.6T Solaris /usr & Apple ZFS
+/dev/nvme1n1p9 7814019072 7814035455      16384    8M Solaris reserved 1
+
+
+Disk /dev/nvme0n1: 3.64 TiB, 4000787030016 bytes, 7814037168 sectors
+Disk model: CT4000P3SSD8                            
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: 7F566BAC-6A12-634F-A3CD-419948D2B401
+
+Device              Start        End    Sectors  Size Type
+/dev/nvme0n1p1       2048 7814019071 7814017024  3.6T Solaris /usr & Apple ZFS
+/dev/nvme0n1p9 7814019072 7814035455      16384    8M Solaris reserved 1
